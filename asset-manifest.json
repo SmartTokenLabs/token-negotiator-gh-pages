@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/token-negotiator-gh-pages/static/css/main.5f5ba923.css",
-    "main.js": "/token-negotiator-gh-pages/static/js/main.522dc6c8.js",
+    "main.js": "/token-negotiator-gh-pages/static/js/main.bac155a8.js",
     "static/js/787.2fcd1a99.chunk.js": "/token-negotiator-gh-pages/static/js/787.2fcd1a99.chunk.js",
     "static/media/SF-Pro-Display-Semibold.otf": "/token-negotiator-gh-pages/static/media/SF-Pro-Display-Semibold.2e4649dd3a66a64ce00b.otf",
     "static/media/SF-Pro-Display-Medium.otf": "/token-negotiator-gh-pages/static/media/SF-Pro-Display-Medium.0541e22941454bd007b0.otf",
@@ -9,11 +9,11 @@
     "static/media/SF-Pro-Display-Regular.otf": "/token-negotiator-gh-pages/static/media/SF-Pro-Display-Regular.b089a1f90c2a5b839565.otf",
     "index.html": "/token-negotiator-gh-pages/index.html",
     "main.5f5ba923.css.map": "/token-negotiator-gh-pages/static/css/main.5f5ba923.css.map",
-    "main.522dc6c8.js.map": "/token-negotiator-gh-pages/static/js/main.522dc6c8.js.map",
+    "main.bac155a8.js.map": "/token-negotiator-gh-pages/static/js/main.bac155a8.js.map",
     "787.2fcd1a99.chunk.js.map": "/token-negotiator-gh-pages/static/js/787.2fcd1a99.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f5ba923.css",
-    "static/js/main.522dc6c8.js"
+    "static/js/main.bac155a8.js"
   ]
 }
