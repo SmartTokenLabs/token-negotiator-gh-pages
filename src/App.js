@@ -10,7 +10,7 @@ function App() {
         <div className="pageWrapper headerContainer">
             <div className="logoContainer">
                 <Link to="/">
-                    <img src="images/logos-token-script.png" className="App-logo" alt="TokenScript logo" />
+                    <img src="images/logos-token-script.svg" className="App-logo" alt="TokenScript logo" />
                 </Link>
             </div>
             <div className="menuContainer">
