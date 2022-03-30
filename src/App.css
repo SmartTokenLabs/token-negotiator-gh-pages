@@ -2,6 +2,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .App-header {
@@ -52,18 +53,21 @@ nav {
 
 .navbar .nav-container li {
   list-style: none;
+  display: flex;
+  margin-bottom: 60px;
+  height: 50px;
 }
 
 .navbar .nav-container li a {
   text-decoration: none;
   color: #0e2431;
-  font-weight: 500;
-  font-size: 1.2rem;
+  font-weight: bold;
+  font-size: 18px;
   padding: 0.7rem;
 }
 
 .navbar .nav-container li a:hover{
-  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .nav-container {
@@ -119,7 +123,7 @@ nav {
 }
 
 .navbar .menu-items {
-  padding-top: 120px;
+  padding-top: 80px;
   height: 100vh;
   width: 100%;
   transform: translate(150%);
@@ -140,6 +144,7 @@ nav {
 .menu-items-inner {
   background-color: #fff;
   height: 100%;
+  padding-top: 40px;
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
@@ -219,16 +224,27 @@ nav {
 
 @media only screen and (max-width: 960px) {
   .pageWrapper {
-    max-width: 600px;
+    max-width: 800px;
   }
   .listContainer {
-    max-width: 400px !important;
+    max-width: unset;
+    margin: 0 16px !important;
+  }
+  .listTile {
+    width: unset !important;
+    height: auto !important;
+  }
+  .backButton, .nextButton {
+    top: 400px !important;
   }
   #desktop-link {
     display: none;
   }
   .hamburger-lines, .navbar .menu-items, #nav-toggle {
     display: flex !important;
+  }
+  .detailsImage img {
+    max-width: unset !important;
   }
 }
 
@@ -250,6 +266,9 @@ nav {
 
 .listHeading {
   text-align: center;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 34px;
 }
 
 .listContainer {
@@ -281,16 +300,13 @@ a {
 }
 
 .detailsContainer {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
 
 @media only screen and (max-width: 1550px) {
-  .detailsContainer {
-    padding: 0 45px;
-  }
   .backButton, .nextButton {
     height: 60px !important;
     width: 45px !important;
