@@ -2,22 +2,51 @@ import './App.css';
 import List from "./pages/List";
 import Details from "./pages/Details";
 import {Routes, Route, Link} from "react-router-dom";
+import examples from './examples';
 
 function App() {
+
+    const menuItems = Object.keys(examples).map((d, idx) => <li key={d}>
+        <a href={examples[d].demoUrl}>
+            {examples[d].name}
+        </a>
+    </li>);
+
   return (
     <div className="App">
         <header className="App-header">
         <div className="pageWrapper headerContainer">
-            <div className="logoContainer">
-                <Link to="/">
-                    <img src="images/logos-token-script.svg" className="App-logo" alt="TokenScript logo" />
-                </Link>
-            </div>
-            <div className="menuContainer">
-                <a href="https://tokenscript.org" target="_blank" rel="noreferrer">
-                    <button className="button">Visit TokenScript Website</button>
-                </a>
-            </div>
+            <nav>
+                <div className="navbar">
+                    <div className="container nav-container">
+                        <div className="logoContainer">
+                            <Link to="/">
+                                <img src="images/logos-token-script.svg" className="App-logo" alt="TokenScript logo" />
+                            </Link>
+                        </div>
+                        <input className="checkbox" type="checkbox" name="" id=""/>
+                        <div className="hamburger-lines">
+                            <span className="line line1"></span>
+                            <span className="line line2"></span>
+                            <span className="line line3"></span>
+                        </div>
+
+                        <div className="menu-items">
+                            <div className="menu-items-inner">
+                                <li>
+                                    <a href="https://tokenscript.org" target="_blank" rel="noreferrer">
+                                        Visit TokenScript Website
+                                    </a>
+                                </li>
+                                {menuItems}
+                            </div>
+                        </div>
+                        <a id="desktop-link" href="https://tokenscript.org" target="_blank" rel="noreferrer">
+                            <button className="button">Visit TokenScript Website</button>
+                        </a>
+                    </div>
+                </div>
+            </nav>
         </div>
         </header>
         <Routes>
