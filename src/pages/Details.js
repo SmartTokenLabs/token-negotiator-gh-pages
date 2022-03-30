@@ -48,7 +48,9 @@ function Details() {
         <div className="pageWrapper contentContainer">
             <div className="detailsContainer">
                 <div className="detailsImage">
-                    <img src={example.imageUrl} alt="Example" />
+                    <img src={example.imageUrl}
+                         srcSet={example.imageUrl.replace('.png', '') + '@2x.png 800w, ' + example.imageUrl.replace('.png', '') + '@3x.png 1200w'}
+                         alt="Example" />
                 </div>
                 <div className="detailsInfo">
                     <div>
