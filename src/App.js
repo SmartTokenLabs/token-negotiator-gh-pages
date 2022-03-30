@@ -24,7 +24,7 @@ function App() {
                                 <img src="images/logos-token-script.svg" className="App-logo" alt="TokenScript logo" />
                             </Link>
                         </div>
-                        <input className="checkbox" type="checkbox" name="" id=""/>
+                        <input className="checkbox" type="checkbox" id="nav-toggle"/>
                         <div className="hamburger-lines">
                             <span className="line line1"></span>
                             <span className="line line2"></span>

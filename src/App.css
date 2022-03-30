@@ -20,6 +20,7 @@
 .logoContainer {
   position: absolute;
   top: 10px;
+  left: 20px;
 }
 
 .logoContainer img {
@@ -45,18 +46,18 @@ nav {
   height: 62px;
 }
 
-.navbar .menu-items {
-  display: flex;
+#nav-toggle {
+  display: none;
 }
 
 .navbar .nav-container li {
   list-style: none;
 }
 
-.navbar .nav-container a {
+.navbar .nav-container li a {
   text-decoration: none;
   color: #0e2431;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.2rem;
   padding: 0.7rem;
 }
@@ -123,18 +124,18 @@ nav {
   height: 100vh;
   width: 100%;
   transform: translate(150%);
-  display: flex;
+  display: none;
   flex-direction: column;
   margin-left: -40px;
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
-  text-align: center;
+  text-align: left;
 }
 
 .navbar .menu-items li {
   margin-bottom: 1.2rem;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .menu-items-inner {
@@ -227,7 +228,7 @@ nav {
   #desktop-link {
     display: none;
   }
-  .hamburger-lines {
+  .hamburger-lines, .navbar .menu-items, #nav-toggle {
     display: flex !important;
   }
 }
@@ -238,6 +239,9 @@ nav {
   }
   .listContainer {
     max-width: 800px !important;
+  }
+  .detailsImage img {
+    max-width: unset !important;
   }
 }
 
