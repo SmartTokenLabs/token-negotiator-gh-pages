@@ -235,7 +235,7 @@ nav {
     height: auto !important;
   }
   .backButton, .nextButton {
-    top: 400px !important;
+    top: 350px !important;
   }
   #desktop-link {
     display: none;
@@ -257,6 +257,9 @@ nav {
   }
   .detailsImage img {
     max-width: unset !important;
+  }
+  .backButton, .nextButton {
+    top: 350px !important;
   }
 }
 
@@ -300,7 +303,6 @@ a {
 }
 
 .detailsContainer {
-  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
