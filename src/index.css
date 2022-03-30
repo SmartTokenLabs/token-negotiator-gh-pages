@@ -1,32 +1,23 @@
 
 @font-face {
-  font-family: SFProDisplay;
-  font-style: normal;
-  font-weight: normal;
-  src: url("../public/fonts/SF-Pro-Display-Regular.otf") format("opentype");
+  font-family: Rubik;
+  src: url("../public/fonts/Rubik-VariableFont_wght.ttf") format("ttf");
 }
 
 @font-face {
-  font-family: SFProDisplay;
-  font-weight: 500;
-  src: url("../public/fonts/SF-Pro-Display-Medium.otf") format("opentype");
+  font-family: Inter;
+  src: url("../public/fonts/Inter-VariableFont_slnt,wght.ttf") format("ttf");
 }
 
-@font-face {
-  font-family: SFProDisplay;
-  font-weight: 600;
-  src: url("../public/fonts/SF-Pro-Display-Semibold.otf") format("opentype");
-}
-
-@font-face {
-  font-family: SFProDisplay;
-  font-weight: bold;
-  src: url("../public/fonts/SF-Pro-Display-Bold.otf") format("opentype");
+h1 {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: SFProDisplay, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Rubik, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -34,7 +25,7 @@ body {
 }
 
 button {
-  font-family: SFProDisplay, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Rubik, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
 }
