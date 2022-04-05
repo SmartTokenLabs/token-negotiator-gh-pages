@@ -22,16 +22,16 @@ function Details() {
 
     if (example.isPrototype){
         buttons = <div className="detailsActions">
-            <a target="_BLANK" href={example.demoUrl ? example.demoUrl : "#"}>
+            <a target="_blank" href={example.demoUrl ? example.demoUrl : "#"} rel="noreferrer">
                 <button className="button primary">View Prototype</button>
             </a>
         </div>;
     } else {
         buttons = <div className="detailsActions">
-            <a target="_BLANK" href={example.demoUrl ? example.demoUrl : "#"}>
+            <a target="_blank" href={example.demoUrl ? example.demoUrl : "#"} rel="noreferrer">
                 <button className="button primary">View Demo</button>
             </a>
-            <a target="_BLANK" href={example.githubUrl ? example.githubUrl : "#"}>
+            <a target="_blank" href={example.githubUrl ? example.githubUrl : "#"} rel="noreferrer">
                 <button className="button">View on Github</button>
             </a>
         </div>;
