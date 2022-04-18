@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders token negotiator examples', () => {
+  render(<App />, {wrapper: MemoryRouter});
+  const element = screen.getByText(/Token Negotiator Examples/i);
+  expect(element).toBeInTheDocument();
 });
