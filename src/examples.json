@@ -1,7 +1,7 @@
 {
   "devcon-issuer-url":{
-    "name": "Devon Ticket Issuer (with url)",
-    "description": "Ticket Issuer website example, where token attestations are are generated inside the website.",
+    "name": "Devcon Ticket Issuer (with url)",
+    "description": "Ticket Issuer website example, where token attestations are generated inside the website.",
     "technology": "JS, HTML, CSS, React, TokenScript",
     "published": "2022",
     "thumbUrl": "images/examples/devcon-thumbnail.png",
