@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/token-negotiator-gh-pages/static/css/main.2222c561.css",
-    "main.js": "/token-negotiator-gh-pages/static/js/main.dc041863.js",
+    "main.js": "/token-negotiator-gh-pages/static/js/main.b0b33eda.js",
     "static/js/787.2fcd1a99.chunk.js": "/token-negotiator-gh-pages/static/js/787.2fcd1a99.chunk.js",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/token-negotiator-gh-pages/static/media/Inter-VariableFont_slnt,wght.b4c30855aff392d7e8dc.ttf",
     "static/media/Rubik-VariableFont_wght.ttf": "/token-negotiator-gh-pages/static/media/Rubik-VariableFont_wght.3a8e5377732eefcf42fb.ttf",
     "index.html": "/token-negotiator-gh-pages/index.html",
     "main.2222c561.css.map": "/token-negotiator-gh-pages/static/css/main.2222c561.css.map",
-    "main.dc041863.js.map": "/token-negotiator-gh-pages/static/js/main.dc041863.js.map",
+    "main.b0b33eda.js.map": "/token-negotiator-gh-pages/static/js/main.b0b33eda.js.map",
     "787.2fcd1a99.chunk.js.map": "/token-negotiator-gh-pages/static/js/787.2fcd1a99.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2222c561.css",
-    "static/js/main.dc041863.js"
+    "static/js/main.b0b33eda.js"
   ]
 }
