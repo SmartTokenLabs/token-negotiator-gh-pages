@@ -16,7 +16,7 @@
     "technology": "JS, HTML, CSS, React, Google Material Design, TokenScript",
     "published": "2022",
     "thumbUrl": "images/examples/hotel-bogota-thumbnail.png",
-    "imageUrl": "images/examples/hotel-bogota.png",
+    "imageUrl": "images/examples/hotel-bogota-passive.png",
     "demoUrl": "./hotel-bogota-passive-negotiation-website/index.html",
     "githubUrl": "https://github.com/TokenScript/token-negotiator-examples",
     "isPrototype": true
