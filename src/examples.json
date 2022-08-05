@@ -31,5 +31,16 @@
     "demoUrl": "./hotel-bogota-active-negotiation-website/index.html",
     "githubUrl": "https://github.com/TokenScript/token-negotiator-examples",
     "isPrototype": true
+  },
+  "art-gallery-medium-article":{
+    "name": "The Art Gallery",
+    "description": "OnChain Token Negotiator website example, where the end user can choose which tokens the art should learn to gain discounts.",
+    "technology": "JS, HTML, CSS, React, TokenScript",
+    "published": "2022",
+    "thumbUrl": "images/examples/art-gallery-thumbnail.png",
+    "imageUrl": "images/examples/art-gallery.png",
+    "demoUrl": "./art-gallery-medium-article-website/index.html",
+    "githubUrl": "https://github.com/TokenScript/token-negotiator-examples",
+    "isPrototype": true
   }
 }
