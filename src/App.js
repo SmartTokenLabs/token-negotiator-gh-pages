@@ -72,6 +72,9 @@ function App() {
                         <a href="https://linkedin.com/company/smart-token-labs" target="_blank" rel="noreferrer">
                             <img src="images/icons-linkedin.svg" alt="LinkedIn icon" />
                         </a>
+                        <a href="https://www.npmjs.com/package/@tokenscript/token-negotiator" target="_blank" rel="noreferrer">
+                            <img src="images/icons-npm.svg" alt="NPM icon" />
+                        </a>
                     </div>
                     <h3>Follow TokenScript on</h3>
                 </div>

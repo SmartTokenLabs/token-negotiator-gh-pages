@@ -204,8 +204,29 @@ nav {
   margin: 0 5px;
 }
 
+.textCenter {
+  text-align: center;
+}
+
+.center-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.center-content {
+  width: 80%;
+}
+
 .footerItem img:hover {
-  filter: invert(10%) sepia(94%) saturate(7466%) hue-rotate(254deg) brightness(85%) contrast(138%);
+  opacity: 0.8;
+}
+
+.linkCard {
+  transition: opacity .25s;
+}
+.linkCard:hover {
+  opacity: 0.95;
 }
 
 .App-logo {
@@ -222,6 +243,11 @@ nav {
   box-sizing: border-box;
 }
 
+@media (max-width: 960px) {
+  .flexWrap {
+    display: block !important;
+  }
+}
 @media only screen and (max-width: 960px) {
   .pageWrapper {
     max-width: 800px;
