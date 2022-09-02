@@ -66,7 +66,7 @@ function App() {
                         <a href="https://twitter.com/TokenScript" target="_blank" rel="noreferrer">
                             <img src="images/icons-twitter.svg" alt="Twitter icon" />
                         </a>
-                        <a href="https://github.com/TokenScript" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/TokenScript/token-negotiator-examples" target="_blank" rel="noreferrer">
                             <img src="images/icons-github.svg" alt="Github icon" />
                         </a>
                         <a href="https://linkedin.com/company/smart-token-labs" target="_blank" rel="noreferrer">
