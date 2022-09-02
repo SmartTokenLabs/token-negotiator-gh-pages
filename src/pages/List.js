@@ -9,7 +9,7 @@ function List() {
     return (
         <div className="pageWrapper contentContainer">
             <h1 className="listHeading">Token Negotiator Examples</h1>
-            <p className='textCenter'>This website has been developed to showcase an off-chain capability of Token Negotiator</p>
+            <p className='textCenter'>This website has been developed to showcase off-chain capabilities of Token Negotiator</p>
             <div className="listContainer">
                 {listItems}
             </div>
