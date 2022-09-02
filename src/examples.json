@@ -10,17 +10,6 @@
     "githubUrl": "https://github.com/TokenScript/token-negotiator-examples",
     "isPrototype": true
   },
-  "hotel-bogota-passive":{
-    "name": "Hotel Bogota (Passive Negotiation)",
-    "description": "Token Negotiator with passive configuration, where all tokens are learnt by the hotel to apply discounts",
-    "technology": "JS, HTML, CSS, React, Google Material Design, TokenScript",
-    "published": "2022",
-    "thumbUrl": "images/examples/hotel-bogota-thumbnail.png",
-    "imageUrl": "images/examples/hotel-bogota-passive.png",
-    "demoUrl": "./hotel-bogota-passive-negotiation-website/index.html",
-    "githubUrl": "https://github.com/TokenScript/token-negotiator-examples",
-    "isPrototype": true
-  },
   "hotel-bogota-active":{
     "name": "Hotel Bogota (Active Negotiation)",
     "description": "Token Negotiator with active configuration, where the end user can choose which tokens the hotel should learn to gain discounts.",
@@ -29,6 +18,17 @@
     "thumbUrl": "images/examples/hotel-bogota-thumbnail.png",
     "imageUrl": "images/examples/hotel-bogota.png",
     "demoUrl": "./hotel-bogota-active-negotiation-website/index.html",
+    "githubUrl": "https://github.com/TokenScript/token-negotiator-examples",
+    "isPrototype": true
+  },
+  "hotel-bogota-passive":{
+    "name": "Hotel Bogota (Passive Negotiation)",
+    "description": "Token Negotiator with passive configuration, where all tokens are learnt by the hotel to apply discounts",
+    "technology": "JS, HTML, CSS, React, Google Material Design, TokenScript",
+    "published": "2022",
+    "thumbUrl": "images/examples/hotel-bogota-thumbnail.png",
+    "imageUrl": "images/examples/hotel-bogota-passive.png",
+    "demoUrl": "./hotel-bogota-passive-negotiation-website/index.html",
     "githubUrl": "https://github.com/TokenScript/token-negotiator-examples",
     "isPrototype": true
   }
