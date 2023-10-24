@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhotel_bogota=self.webpackChunkhotel_bogota||[]).push([[400],{1400:(o,e,t)=>{t.r(e),t.d(e,{getFlowProvider:()=>s});var r=t(64006);r.config({"accessNode.api":"https://rest-mainnet.onflow.org","discovery.wallet":"https://fcl-discovery.onflow.org/authn"});var s=function(){return r}}}]);
+//# sourceMappingURL=400.b1d7eb21.chunk.js.map
